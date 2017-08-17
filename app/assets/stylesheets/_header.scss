@@ -1,0 +1,87 @@
+header{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1999999999;
+    background-color: white;
+    height: 45px;
+}
+
+header .conteneur{
+	display: flex;
+	wrap: nowrap;
+	justify-content: space-around;
+	height: 45px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    align-items: center;
+}
+
+header i {
+	color: grey;
+}
+
+header img{
+	height: 45px;
+	width: auto;
+}
+
+header #search {
+width:150px;
+height:24px;
+background:transparent;
+border: 1px solid #e8e8e8;
+float: left;
+}
+
+header #search .btn-right-loupe {
+width:auto;
+height:24px;
+float: right;
+border: 1px solid #e8e8e8;
+}
+
+header #search input {
+outline:0;
+border: 5px;
+}
+
+header #search input[type=text] {
+display:block;
+font:300 12px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+background:none;
+text-shadow:0 1px white;
+float:left;
+height:24px;
+width:240px;
+line-height:25px;
+color:#666;
+margin:0
+}
+
+.element:nth-child(1)
+{
+    flex: 1;
+}
+.element:nth-child(2)
+{
+    flex: 1;
+}
+.element:nth-child(3)
+{
+    flex: 2;
+}
+.element:nth-child(4)
+{
+    flex: 1;
+}
+.element:nth-child(5)
+{
+    flex: 1;
+}
+.element:nth-child(6)
+{
+    flex: 1;
+}
