@@ -1,0 +1,66 @@
+footer{
+	margin-top: -145px;
+    background-color: #fff;
+    border-top: 1px solid #e2e2e2;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+footer ul{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+footer .footer1 li{
+	display: inline;
+	vertical-align: middle;
+	padding-right: 10px
+}
+
+footer .footer1 li a{
+	border: 1px solid grey;
+	background-color: #e8e8e8;
+	padding: 10px;
+}
+
+footer .footer1 li a:hover{
+	border: 1px solid grey;
+	background-color: grey;
+	padding: 10px;
+}
+
+footer img{
+	height: 45px;
+	width: auto;
+}
+
+footer hr{
+	color: #e8e8e8;
+	width: 100%;
+}
+
+footer .footer2 li{
+	display: inline;
+	vertical-align: middle;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+footer .footer3 li{
+	display: inline;
+	vertical-align: middle;
+	padding-right: 10px;
+	font-size: 10px;
+}
+
+footer li a {
+	text-decoration: none;
+	color: black;
+	font-family: "YouTube Noto",Roboto,arial,sans-serif;
+	vertical-align: middle;
+	align-items: center;
+}
+
+
