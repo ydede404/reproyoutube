@@ -29,18 +29,17 @@ header img{
 }
 
 header #search {
-width:150px;
+width:500px;
 height:24px;
 background:transparent;
 border: 1px solid #e8e8e8;
 float: left;
 }
 
-header #search .btn-right-loupe {
-width:auto;
-height:24px;
+.btn-right-loupe {
 float: right;
-border: 1px solid #e8e8e8;
+height: 26px;
+width: auto;
 }
 
 header #search input {
@@ -55,33 +54,8 @@ background:none;
 text-shadow:0 1px white;
 float:left;
 height:24px;
-width:240px;
+width:500px;
 line-height:25px;
 color:#666;
 margin:0
-}
-
-.element:nth-child(1)
-{
-    flex: 1;
-}
-.element:nth-child(2)
-{
-    flex: 1;
-}
-.element:nth-child(3)
-{
-    flex: 2;
-}
-.element:nth-child(4)
-{
-    flex: 1;
-}
-.element:nth-child(5)
-{
-    flex: 1;
-}
-.element:nth-child(6)
-{
-    flex: 1;
 }
